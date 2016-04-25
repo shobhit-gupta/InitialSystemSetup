@@ -86,10 +86,10 @@ Install the following sublime packages using the package control.
 
 | Theme | Helper | Keyboard |
 |:-----|:----|:-----|
-|Material Theme | SideBarEnhancements | FindKeyConflicts |
-|ThemeTweaker | AutomaticFullscreen | Keymaps |
-|ThemeScheduler | ReadmePlease | |
-|Themes Menu Switcher | | |
+| Material Theme | SideBarEnhancements | FindKeyConflicts |
+| ThemeTweaker | AutomaticFullscreen | Keymaps |
+| ThemeScheduler | ReadmePlease | |
+| Themes Menu Switcher | | |
 
 <!--
 	>>>> Coding
@@ -99,11 +99,11 @@ Install the following sublime packages using the package control.
 
 | Helper | Commenting & Documentation | Web | Markdown |
 |:----|:----|:----|:----|
-|All Autocomplete | Comment-Snippets | Emmet | Markdown Preview |
-|SublimeCodeIntel | Center Comment | View In Browser | MarkdownTOC |
-|BracketHighlighter | Fold Comments | HTML5 | |
-| | Table of comments | HTML-CSS-JS Prettify | |
-| | Readme-Helper | | |
+| All Autocomplete | Comment-Snippets | Emmet | Markdown Preview |
+| SublimeCodeIntel | Center Comment | View In Browser | MarkdownTOC |
+| BracketHighlighter | Fold Comments | HTML5 | |
+| HyperlinkHelper | Table of comments | HTML-CSS-JS Prettify | |
+|  | Readme-Helper | | |
 
 <!--====  End of Installation  ====-->
 
