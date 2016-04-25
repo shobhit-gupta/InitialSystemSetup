@@ -44,3 +44,7 @@ Thumbs.db
 # Distribution code #
 #####################
 */dist/
+
+# Sublime #
+###########
+*.sublime-workspace
