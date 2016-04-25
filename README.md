@@ -246,33 +246,12 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 ``` javascript
 {
 	"posix": {
-		"linux": {
-			"firefox": "firefox -new-tab",
-			"chrome": "google-chrome",
-			"chrome64": "google-chrome",
-			"chromium": "chromium"
-		},
-		"linux2": {
-			"firefox": "firefox -new-tab",
-			"chrome": "google-chrome",
-			"chrome64": "google-chrome",
-			"chromium": "chromium"
-		},
 		"darwin": {
 			"firefox": "open -a \"/Applications/Firefox.app\"",
 			"safari": "open -a \"/Applications/Safari.app\"",
 			"chrome": "open -a \"/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app\"",
 			"chrome64": "open -a \"/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app\"",
 			"yandex": "open -a \"/Applications/Yandex.app\""
-		}
-	},
-	"nt": {
-		"win32": {
-			"firefox": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe -new-tab",
-			"iexplore": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
-			"chrome": "%Local AppData%\\Google\\Chrome\\Application\\chrome.exe",
-			"chrome64": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
-			"yandex": "%Local AppData%\\Yandex\\YandexBrowser\\browser.exe"
 		}
 	},
 
