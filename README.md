@@ -20,6 +20,7 @@
 			- Theme Scheduler Settings
 			- View In Browser Settings
 			- Table of comments Settings
+			- LineEndings Settings
 			- Syntax Specific Settings: HTML & CSS
 
 <!-- /MarkdownTOC -->
@@ -103,7 +104,7 @@ Install the following sublime packages using the package control.
 | SublimeCodeIntel | Center Comment | View In Browser | MarkdownTOC |
 | BracketHighlighter | Fold Comments | HTML5 | |
 | HyperlinkHelper | Table of comments | HTML-CSS-JS Prettify | |
-|  | Readme-Helper | | |
+| LineEndings | Readme-Helper | | |
 
 <!--====  End of Installation  ====-->
 
@@ -272,6 +273,20 @@ Access through the command palette.
 	"comment_chars": "/*#|=-"
 }
 ```
+
+<!--
+	>>>> LineEndings Settings
+-->
+#### LineEndings Settings
+``` javascript
+{
+	// show an alert when the line ending is on the list.
+	"alert_when_line_ending_is" : ["Windows"],
+	//example: "alert_when_line_ending_is":["Windows","Unix","CR"]
+
+}
+```
+
 
 <!--
 	>>>> Syntax Specific Settings: HTML & CSS
