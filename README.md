@@ -195,8 +195,8 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 [
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
 	{ "keys": ["super+shift+v"], "command": "paste" },
-	{ "keys": ["super+shift+f"], "command": "toggle_fold_comments" },
-	{ "keys": ["super+shift+c"], "command": "center_comment" },
+	{ "keys": ["super+shift+/"], "command": "toggle_fold_comments" },
+	{ "keys": ["super+shift+m"], "command": "center_comment" },
 	{ "keys": ["f1"], "command": "table_of_comments" },
 	{ "keys": ["alt+up"],   "command": "table_of_comments", "args":{ "move":"up" } },
 	{ "keys": ["alt+down"], "command": "table_of_comments", "args":{ "move":"down" }}
