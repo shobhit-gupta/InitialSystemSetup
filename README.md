@@ -198,6 +198,7 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 	{ "keys": ["super+shift+v"], "command": "paste" },
 	{ "keys": ["super+shift+/"], "command": "toggle_fold_comments" },
 	{ "keys": ["super+shift+m"], "command": "center_comment" },
+	{ "keys": ["super+shift+c"], "command": "expand_selection_to_paragraph"},
 	{ "keys": ["f1"], "command": "table_of_comments" },
 	{ "keys": ["alt+up"],   "command": "table_of_comments", "args":{ "move":"up" } },
 	{ "keys": ["alt+down"], "command": "table_of_comments", "args":{ "move":"down" }}
@@ -286,7 +287,6 @@ Access through the command palette.
 
 }
 ```
-
 
 <!--
 	>>>> Syntax Specific Settings: HTML & CSS
