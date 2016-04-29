@@ -105,6 +105,7 @@ Install the following sublime packages using the package control.
 | BracketHighlighter | Fold Comments | HTML5 | |
 | HyperlinkHelper | Table of comments | HTML-CSS-JS Prettify | |
 | LineEndings | Readme-Helper | | |
+| Surround | | | |
 
 <!--====  End of Installation  ====-->
 
@@ -201,7 +202,10 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 	{ "keys": ["super+shift+c"], "command": "expand_selection_to_paragraph"},
 	{ "keys": ["f1"], "command": "table_of_comments" },
 	{ "keys": ["alt+up"],   "command": "table_of_comments", "args":{ "move":"up" } },
-	{ "keys": ["alt+down"], "command": "table_of_comments", "args":{ "move":"down" }}
+	{ "keys": ["alt+down"], "command": "table_of_comments", "args":{ "move":"down" }},
+	{ "keys": ["alt+shift+t"], "command": "surround_selection"},
+	{ "keys": ["alt+shift+c"], "command": "surround_change"},
+	{ "keys": ["alt+shift+d"], "command": "surround_delete"}
 ]
 ```
 
