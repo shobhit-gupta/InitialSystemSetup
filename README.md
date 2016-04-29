@@ -237,12 +237,13 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
         {
             "theme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
             "ui_theme": "Material-Theme.sublime-theme",
-            "filters": "brightness(1.1)@fg",
+            "filters": "brightness(1.15)@fg",
             "msg": "Prep for sleep now son... don't mess this up.",
             "time": "19:00"
         }
     ]
 }
+
 ```
 
 <!--
