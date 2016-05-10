@@ -90,7 +90,7 @@ Install the following sublime packages using the package control.
 | Material Theme | SideBarEnhancements | FindKeyConflicts |
 | ThemeTweaker | AutomaticFullscreen | Keymaps |
 | ThemeScheduler | ReadmePlease | |
-| Themes Menu Switcher | | |
+| Themes Menu Switcher | MarkAndMove | |
 
 <!--
 	>>>> Coding
@@ -208,6 +208,7 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 	{ "keys": ["alt+shift+d"], "command": "surround_delete"},
 	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["super+m"], "command": "mark_and_move_do_it_all"},
 ]
 ```
 
