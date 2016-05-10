@@ -205,7 +205,9 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 	{ "keys": ["alt+down"], "command": "table_of_comments", "args":{ "move":"down" }},
 	{ "keys": ["alt+shift+t"], "command": "surround_selection"},
 	{ "keys": ["alt+shift+c"], "command": "surround_change"},
-	{ "keys": ["alt+shift+d"], "command": "surround_delete"}
+	{ "keys": ["alt+shift+d"], "command": "surround_delete"},
+	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 ]
 ```
 
@@ -243,7 +245,6 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
         }
     ]
 }
-
 ```
 
 <!--
