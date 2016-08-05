@@ -6,6 +6,8 @@
 		- Pre-setup
 		- Fonts
 		- Brew & NPM Installs
+		- Safari Extensions
+		- Apps
 		- Sublime Text 3
 			- Package Control
 			- Environment & Interface
@@ -65,6 +67,19 @@ Install the following fonts:
 ====-->
 ### Brew & NPM Installs
 > Run `initialSystemSetupScript.sh` to do **majority** of the install work. Check the script for better understanding.
+
+<!--====
+	>>> Safari Extensions
+====-->
+### Safari Extensions
+1. Streak
+2. uBlock
+
+<!--====
+	>>> Apps
+====-->
+### Apps
+1. f.lux
 
 <!--====
 	>>> Sublime Text 3
@@ -131,7 +146,8 @@ Install the following sublime packages using the package control.
 
 	``` shell
 	# Example (~/.oh-my-zsh/custom/customize.zsh):
-	alias chrome="osascript -e 'activate application \"Google Chrome\"' && /opt/homebrew-cask/Caskroom/google-chrome/latest/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+	# alias chrome="osascript -e 'activate application \"Google Chrome\"' && /opt/homebrew-cask/Caskroom/google-chrome/latest/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+	alias chrome="open -a Google\ Chrome"
 	alias safari="open -a Safari"
 	alias cd_udacity="cd /Volumes/SeagateSlimC/Projects/Udacity/"
 	alias vlc="open -a vlc"
@@ -168,7 +184,7 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 		"Pre"
 	],
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/User/ThemeTweaker/Material-Theme-Lighter.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 	"font_face": "Operator Mono",
 	"font_size": 13,
 	"ignored_packages":
@@ -183,6 +199,7 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 	"line_padding_top": 3,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
+	"show_line_endings": true,
 	"tab_size": 4,
 	"theme": "Material-Theme-Lighter.sublime-theme",
 	"trim_trailing_white_space_on_save": true
@@ -233,12 +250,12 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
             "time": "9:00"
         },
     	{
-    		"theme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
+    		"theme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
     		"ui_theme": "Material-Theme.sublime-theme",
     		"time": "17:00"
     	},
         {
-            "theme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
+            "theme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
             "ui_theme": "Material-Theme.sublime-theme",
             "filters": "brightness(1.15)@fg",
             "msg": "Prep for sleep now son... don't mess this up.",
@@ -252,6 +269,7 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 	>>>> View In Browser Settings
 -->
 #### View In Browser Settings
+Depends upon the setup.
 ``` javascript
 {
 	"posix": {
