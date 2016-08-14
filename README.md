@@ -149,7 +149,9 @@ Install the following sublime packages using the package control.
 	# alias chrome="osascript -e 'activate application \"Google Chrome\"' && /opt/homebrew-cask/Caskroom/google-chrome/latest/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 	alias chrome="open -a Google\ Chrome"
 	alias safari="open -a Safari"
+	alias cd_projects="cd /Volumes/SeagateSlimC/Projects/"
 	alias cd_udacity="cd /Volumes/SeagateSlimC/Projects/Udacity/"
+	alias cd_coursera="cd /Volumes/SeagateSlimC/Projects/Coursera/"
 	alias vlc="open -a vlc"
 	```
 
