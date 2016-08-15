@@ -86,6 +86,7 @@ brew install emacs
 
 # tool which controls the generation of executables and other non-source files of a program from the program's source files.
 brew install make
+brew install cmake
 
 # nano is a small and friendly text editor
 # brew install nano
@@ -156,7 +157,8 @@ echo $PATH
 # brew install graphviz --with-librsvg --with-x11
 # brew install cairo
 # brew install py2cairo # this will ask you to download xquartz and install it
-# brew install qt pyqt
+brew install qt
+# brew install pyqt
 
 # install virtualenv, nose (unittests & doctests on steroids)
 # pip install virtualenv
