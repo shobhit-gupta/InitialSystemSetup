@@ -15,6 +15,7 @@
 	- Customization
 		- iTerm
 		- zsh
+		- Git
 		- Sublime Text 3
 			- Icon
 			- User Settings
@@ -162,10 +163,17 @@ Install the following sublime packages using the package control.
 	export PROMPT=$'\n'$PROMPT
 	```
 
-3. Set sublime text as default text editor for git
+### Git
+1. Set sublime text as default text editor for git
 
 	```shell
 	git config --global core.editor "subl -n -w"
+	```
+
+2. Apply the color settings.
+
+	```shell
+	git config --global color.ui auto
 	```
 
 <!--====
