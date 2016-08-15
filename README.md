@@ -163,6 +163,9 @@ Install the following sublime packages using the package control.
 	export PROMPT=$'\n'$PROMPT
 	```
 
+<!--====
+	>>> Git
+====-->
 ### Git
 1. Set sublime text as default text editor for git
 
@@ -170,10 +173,17 @@ Install the following sublime packages using the package control.
 	git config --global core.editor "subl -n -w"
 	```
 
-2. Apply the color settings.
+2. Apply the color settings
 
 	```shell
 	git config --global color.ui auto
+	```
+
+3. Also add the following git config commands
+
+	```shell
+	git config --global push.default upstream
+	git config --global merge.conflictstyle diff3
 	```
 
 <!--====
