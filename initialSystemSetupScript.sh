@@ -179,6 +179,9 @@ pip install scipy
 python -c 'import numpy ; numpy.test();'
 python -c 'import scipy ; scipy.test();'
 
+# Testing tools
+pip install coverage
+
 # some cool python libs (if you don't know them, look them up)
 # matplotlib: generate plots
 # pandas: time series stuff
