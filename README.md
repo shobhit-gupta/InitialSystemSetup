@@ -108,6 +108,8 @@ Install the following sublime packages using the package control.
 | ThemeScheduler | ReadmePlease | |
 | Themes Menu Switcher | MarkAndMove | |
 
+* SideBarEnhancements no longer available on package control. Install from git repo.
+
 <!--
 	>>>> Coding
 -->
@@ -120,8 +122,10 @@ Install the following sublime packages using the package control.
 | SublimeCodeIntel | Center Comment | View In Browser | MarkdownTOC |
 | BracketHighlighter | Fold Comments | HTML5 | |
 | HyperlinkHelper | Table of comments | HTML-CSS-JS Prettify | |
-| LineEndings | Readme-Helper | | |
+| Line Endings Unify | Readme-Helper | | |
 | Surround | | | |
+
+* Surround: Trial removal. Newer versions seems to take care of this functionality.
 
 <!--====  End of Installation  ====-->
 
@@ -138,6 +142,10 @@ Install the following sublime packages using the package control.
 1. Import & load color presets from Material Color Scheme.
 2. Set the text font to 13pt Operator Mono Light.
 3. Set vertical character spacing to 1.3 and horizontal character spacing to roughly the 6th tick.
+4. Change the Tab theme from Appearance section to Dark.
+5. Change the Closing settings from the General tab
+	5.1 Uncheck 'Confirm closing multiple sessions'.
+	5.2 Uncheck 'Confirm "Quit iTerm2...'
 
 <!--====
 	>>> ZSH
@@ -184,6 +192,12 @@ Install the following sublime packages using the package control.
 	```shell
 	git config --global push.default upstream
 	git config --global merge.conflictstyle diff3
+	```
+
+4. User settings
+
+	```shell
+	git config --global user.email shobphoenix@gmail.com
 	```
 
 <!--====
