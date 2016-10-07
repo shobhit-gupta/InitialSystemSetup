@@ -108,8 +108,6 @@ Install the following sublime packages using the package control.
 | ThemeScheduler | ReadmePlease | |
 | Themes Menu Switcher | MarkAndMove | |
 
-* SideBarEnhancements no longer available on package control. Install from git repo.
-
 <!--
 	>>>> Coding
 -->
