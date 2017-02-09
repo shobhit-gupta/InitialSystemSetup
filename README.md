@@ -195,7 +195,7 @@ Install the following sublime packages using the package control.
 4. User settings
 
 	```shell
-	git config --global user.email shobphoenix@gmail.com
+	git config --global user.email shobhit.gupta.compscience@gmail.com
 	```
 
 <!--====
