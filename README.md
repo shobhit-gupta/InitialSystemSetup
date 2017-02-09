@@ -198,6 +198,16 @@ Install the following sublime packages using the package control.
 	git config --global user.email shobhit.gupta.compscience@gmail.com
 	```
 
+5. Line endings
+
+	```shell
+	git config --global core.autocrlf input
+	# Configure Git on OS X or Linux to properly handle line endings
+
+	git config --global core.autocrlf true
+	# Configure Git on Windows to properly handle line endings
+	```
+
 <!--====
 	>>> Sublime Text 3
 ====-->
