@@ -48,3 +48,39 @@ Thumbs.db
 # Sublime #
 ###########
 *.sublime-workspace
+
+# Xcode #
+#########
+build/
+DerivedData
+xcuserdata
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# CocoaPods #
+#############
+Pods/
+# Comment this line for BuddyBuild
+#*Podfile.lock
+
+# Carthage #
+############
+Carthage/Checkouts
+Carthage/Build
+
+# Firebase #
+############
+*GoogleService-Info.plist
+
