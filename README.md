@@ -157,9 +157,18 @@ Install the following sublime packages using the package control.
 	alias chrome="open -a Google\ Chrome"
 	alias safari="open -a Safari"
 	alias cd_projects="cd /Volumes/SeagateSlimC/Projects/"
-	alias cd_udacity="cd /Volumes/SeagateSlimC/Projects/Udacity/"
 	alias cd_coursera="cd /Volumes/SeagateSlimC/Projects/Coursera/"
+	alias cd_tdev="cd /Volumes/SeagateSlimC/Projects/Topcoder/Develop/"
+	alias cd_udacity="cd /Volumes/SeagateSlimC/Projects/Udacity/"
+	alias cd_ios_apps="cd /Volumes/SeagateSlimC/Projects/Udacity/Nanodegrees/iOS/Apps"
 	alias vlc="open -a vlc"
+
+	# Make & simultaneously change directory path
+	mcd ()
+	{
+	    mkdir -p -- "$1" &&
+	      cd -P -- "$1"
+	}
 	```
 
 2. You might want to add a newline before each prompt. Add the following in `~/.zshrc` at the end
