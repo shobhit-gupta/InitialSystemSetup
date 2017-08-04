@@ -23,7 +23,7 @@
 			- Theme Scheduler Settings
 			- View In Browser Settings
 			- Table of comments Settings
-			- LineEndings Settings
+			- LineEndings Settings \(deprecated\)
 			- Syntax Specific Settings: HTML & CSS
 
 <!-- /MarkdownTOC -->
@@ -360,7 +360,7 @@ Access through the command palette.
 <!--
 	>>>> LineEndings Settings
 -->
-#### LineEndings Settings
+#### LineEndings Settings (deprecated)
 ``` javascript
 {
 	// show an alert when the line ending is on the list.
