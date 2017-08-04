@@ -142,8 +142,14 @@ Install the following sublime packages using the package control.
 3. Set vertical character spacing to 1.3 and horizontal character spacing to roughly the 6th tick.
 4. Change the Tab theme from Appearance section to Dark.
 5. Change the Closing settings from the General tab
-	5.1 Uncheck 'Confirm closing multiple sessions'.
-	5.2 Uncheck 'Confirm "Quit iTerm2...'
+	1. Uncheck 'Confirm closing multiple sessions'.
+	2. Uncheck 'Confirm "Quit iTerm2...'
+6. Fullscreen mode by default
+	1. Switch to fullscreen mode.
+	2. Window > Save Window Arrangement
+		1. Name it "Fullscreen"
+	3. Preference > Arrangements > Select Fullscreen > Set Default
+	4. Preference > General > Startup > Open Default Window Arrangement
 
 <!--====
 	>>> ZSH
