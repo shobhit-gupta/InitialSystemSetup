@@ -213,7 +213,7 @@ Install the following sublime packages using the package control.
 	git config --global core.autocrlf input
 	# Configure Git on OS X or Linux to properly handle line endings
 
-	git config --global core.autocrlf true
+	# git config --global core.autocrlf true
 	# Configure Git on Windows to properly handle line endings
 	```
 
