@@ -225,19 +225,19 @@ Install the following sublime packages using the package control.
 
 6. SSH Login
 
-	- Create ssh folder
+	1. Create ssh folder
 
 	```shell
 	mcd ~/.ssh/
 	```
 
-	- Generate Key pairs (private and public keys) for different ids with:
+	2. Generate Key pairs (private and public keys) for different ids with:
 
 	```shell
 	ssh-keygen -t rsa -b 4096 -C "YOUT_EMAIL_ADDRESS"
 	```
 
-	- Config file (~/.ssh/config). Code for reference:
+	3. Config file (~/.ssh/config). Code for reference:
 
 	```shell
 	# Reference:
@@ -309,20 +309,20 @@ Install the following sublime packages using the package control.
 		IdentityFile ~/.ssh/id_rsa_compscience
 	```
 
-	- Add each **public** key to their respective github or gitlab etc. accounts.
+	4. Add each **public** key to their respective github or gitlab etc. accounts.
 
 	```shell
 	# Copy public key to clipboard
 	pbcopy < PATH_TO_PUBLIC_KEY
 	```
 
-	- Ensure ssh-agent is running
+	5. Ensure ssh-agent is running
 
 	```shell
 	eval "$(ssh-agent -s)"
 	```
 
-	- Add private keys in ssh-agent
+	6. Add private keys in ssh-agent
 
 	```shell
 	# See all the keys already added to ssh-agent
@@ -337,7 +337,7 @@ Install the following sublime packages using the package control.
 	ssh-add -l
 	```
 
-	- Test (Should get a successful authentication or welcome message.)
+	7. Test (Should get a successful authentication or welcome message.)
 
 	```shell
 	# Example Test
