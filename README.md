@@ -204,7 +204,7 @@ Install the following sublime packages using the package control.
 4. User settings
 
 	```shell
-	git config --global user.email YOUR_EMAIL_ADDRESS
+	git config --global user.email "YOUR_EMAIL_ADDRESS"
 	```
 
 5. Line endings
@@ -216,6 +216,128 @@ Install the following sublime packages using the package control.
 	# git config --global core.autocrlf true
 	# Configure Git on Windows to properly handle line endings
 	```
+
+6. SSH Login
+
+	6.1 Create ssh folder
+
+	```shell
+	mcd ~/.ssh/
+	```
+
+	6.2 Generate Key pairs (private and public keys) for different ids with:
+
+	```shell
+	ssh-keygen -t rsa -b 4096 -C "YOUT_EMAIL_ADDRESS"
+	```
+
+	6.3 Config file (~/.ssh/config). Code for reference:
+
+	```shell
+	# Reference:
+	# https://help.github.com/articles/using-ssh-over-the-https-port/
+	# https://about.gitlab.com/2016/02/18/gitlab-dot-com-now-supports-an-alternate-git-plus-ssh-port/
+	# https://confluence.atlassian.com/bitbucket/configure-multiple-ssh-identities-for-gitbash-mac-osx-linux-271943168.html
+
+
+	# Default GitHub user
+	# ===================
+	Host github.com
+		# Uncomment following line if default ssh port is not blocked.
+		# HostName github.com
+
+		# Comment following 2 lines if default ssh port is not blocked.
+		Hostname ssh.github.com
+		Port 443
+
+		PreferredAuthentications publickey
+		IdentityFile ~/.ssh/id_rsa_compscience
+
+	# Old GitHub user
+	# ===============
+	Host old.github.com
+		# Uncomment following line if default ssh port is not blocked.
+		# HostName github.com
+
+		# Comment following 2 lines if default ssh port is not blocked.
+		Hostname ssh.github.com
+		Port 443
+
+		PreferredAuthentications publickey
+		IdentityFile ~/.ssh/id_rsa_phoenix
+
+	# Default Gitlab user
+	# ===================
+	Host gitlab.com
+		# Uncomment following line if default ssh port is not blocked.
+		# HostName gitlab.com
+
+		# Comment following 2 lines if default ssh port is not blocked.
+		Hostname altssh.gitlab.com
+		Port 443
+
+		PreferredAuthentications publickey
+		IdentityFile ~/.ssh/id_rsa_compscience
+
+	# macOS Sierra 10.12.2 or later
+	# =============================
+	Host *
+		AddKeysToAgent yes
+		UseKeychain yes
+		IdentityFile ~/.ssh/id_rsa_compscience
+		IdentityFile ~/.ssh/id_rsa_phoenix
+
+
+	# Support for Professional id (deprecated)
+	# Default GitHub user
+	# ===================
+	Host Professional
+		# Uncomment following line if default ssh port is not blocked.
+		# HostName github.com
+
+		# Comment following 2 lines if default ssh port is not blocked.
+		Hostname ssh.github.com
+		Port 443
+
+		PreferredAuthentications publickey
+		IdentityFile ~/.ssh/id_rsa_compscience
+	```
+
+	6.4 Add each **public** key to their respective github or gitlab etc. accounts.
+
+	```shell
+	# Copy public key to clipboard
+	pbcopy < PATH_TO_PUBLIC_KEY
+	```
+
+	6.5 Ensure ssh-agent is running
+
+	```shell
+	eval "$(ssh-agent -s)"
+	```
+
+	6.6 Add private keys in ssh-agent
+
+	```shell
+	# See all the keys already added to ssh-agent
+	ssh-add -l
+
+	# Delete (if needed) cached keys and list the keys again to double check
+	ssh-add -D
+	ssh-add -l
+
+	# Add new keys and list the keys again to double check
+	ssh-add ssh-add PATH_TO_PRIVATE_KEY
+	ssh-add -l
+	```
+
+	6.6 Test (Should get a successful authentication or welcome message.)
+
+	```shell
+	# Example Test
+	ssh -T git@github.com
+	```
+
 
 <!--====
 	>>> Sublime Text 3
