@@ -64,6 +64,7 @@ brew install grep --with-default-names
 
 # for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols.
 brew install wget
+brew install aria2
 
 ####################################################################################
 # Some command line tools already exist on OS X, but you may wanna a newer version #
