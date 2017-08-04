@@ -329,16 +329,6 @@ Change the icon for Sublime Text using the instructions in Readme provided with 
 Depends upon the setup.
 ``` javascript
 {
-	"posix": {
-		"darwin": {
-			"firefox": "open -a \"/Applications/Firefox.app\"",
-			"safari": "open -a \"/Applications/Safari.app\"",
-			"chrome": "open -a \"/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app\"",
-			"chrome64": "open -a \"/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app\"",
-			"yandex": "open -a \"/Applications/Yandex.app\""
-		}
-	},
-
 	"browser": "safari"
 }
 ```
