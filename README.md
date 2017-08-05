@@ -25,6 +25,7 @@
 			- Table of comments Settings
 			- LineEndings Settings \(deprecated\)
 			- Syntax Specific Settings: HTML & CSS
+		- Xcode
 
 <!-- /MarkdownTOC -->
 
@@ -497,6 +498,24 @@ Access through the command palette.
 	"save_on_focus_lost": true
 }
 ```
+
+<!--====
+	>>> Xcode
+====-->
+### Xcode
+1. Import all the color themes from Xcode folder.
+2. Preferences >
+	1. Accounts
+		1. Add Apple Id
+	2. Fonts & Colors
+		1. Set Solarized Light 2 as default theme.
+	3. Text Editing
+		1. Line numbers
+		2. Page guide at column 80
+	4. Key Bindings > Conflicts
+		1. Move Subword Forward (Selection) 	^⌥➞
+		2. Move Subword Backword (Selection) 	^⌥←
+
 
 <!--====  End of Customization  ====-->
 
