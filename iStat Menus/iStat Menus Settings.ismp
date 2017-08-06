@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<real>724</real>
+	<key>license</key>
+	<string>7012-5521-6892-4335-6840</string>
+	<key>preferences</key>
+	<dict>
+		<key>CombinedDropdownDisplayMode</key>
+		<string></string>
+		<key>CombinedMenubarDisplayMode</key>
+		<string>5,1,3,2,4,6,7</string>
+		<key>Diagnostics_Enabled</key>
+		<integer>0</integer>
+		<key>MenubarSkinColor</key>
+		<integer>0</integer>
+		<key>StatusItems-Order</key>
+		<array>
+			<integer>5</integer>
+			<integer>1</integer>
+			<integer>3</integer>
+			<integer>2</integer>
+			<integer>4</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+		</array>
+		<key>Theme-SeperateStyles</key>
+		<integer>0</integer>
+		<key>Time_CalendarShowEvents</key>
+		<integer>0</integer>
+		<key>Time_MenubarFormat</key>
+		<array>
+			<string>' '</string>
+			<string>EE</string>
+			<string>' '</string>
+			<string>dd</string>
+			<string>' '</string>
+			<string>MMM</string>
+			<string>' '</string>
+			<string>hh</string>
+			<string>':'</string>
+			<string>mm</string>
+			<string>' '</string>
+			<string>a</string>
+		</array>
+	</dict>
+	<key>version</key>
+	<real>5.320000171661377</real>
+</dict>
+</plist>
