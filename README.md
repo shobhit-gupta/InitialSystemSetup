@@ -334,7 +334,7 @@ Install the following sublime packages using the package control.
 	ssh-add -l
 
 	# Add new keys and list the keys again to double check
-	ssh-add ssh-add PATH_TO_PRIVATE_KEY
+	ssh-add PATH_TO_PRIVATE_KEY
 	ssh-add -l
 	```
 
