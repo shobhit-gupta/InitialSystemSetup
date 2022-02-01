@@ -260,3 +260,9 @@ brew cask install vlc
 # Install oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # npm install -g pure-prompt
+
+###########
+# Browser #
+###########
+brew install --cask google-chrome
+brew install --cask google-chrome-canary
