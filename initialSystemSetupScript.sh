@@ -13,8 +13,8 @@ fi
 # set up some taps and update brew
 brew tap homebrew/versions
 brew tap homebrew/dupes	# These formulae duplicate software provided by OS X, though may provide more recent or bugfix versions.
-brew tap homebrew/science # a lot of cool formulae for scientific tools
-brew tap homebrew/python # numpy, scipy, matplotlib, ...
+# brew tap homebrew/science # a lot of cool formulae for scientific tools
+# brew tap homebrew/python # numpy, scipy, matplotlib, ...
 brew update && brew upgrade
 
 # Check brew install.
@@ -71,13 +71,13 @@ brew install aria2
 ####################################################################################
 
 # Shell
-brew install bash
+# brew install bash
 
 # extensible, customizable text editor
 brew install emacs
 
 # Debugger
-# brew install gdb  # gdb requires further actions to make it work. See `brew info gdb`.
+brew install gdb  # gdb requires further actions to make it work. See `brew info gdb`.
 
 # Patch takes a patch file containing a difference listing produced by the diff program and applies those differences to one or more original files, producing patched versions
 # brew install gpatch
@@ -87,7 +87,7 @@ brew install emacs
 
 # tool which controls the generation of executables and other non-source files of a program from the program's source files.
 brew install make
-# brew install cmake
+brew install cmake
 
 # nano is a small and friendly text editor
 # brew install nano
@@ -138,12 +138,12 @@ brew install unrar
 # (python2 and python3) and it’s an advantage, as we’ll make sure that nothing poisons your system python and that you as a user & developer will use the
 # brewed python
 ###############################################################################################################################################################
-brew install python
+# brew install python
 
-which python
+# which python
 # should say /usr/local/bin/python
 
-echo $PATH
+# echo $PATH
 # /usr/local/bin should appear in front of /usr/bin
 
 # brew doctor
@@ -168,8 +168,8 @@ echo $PATH
 # install numpy and scipy
 # there are two ways to install numpy and scipy now: via pip or via brew.
 # PICK ONE, i prefer pip for proper virtualenv support and more up-to-date versions.
-pip install numpy
-pip install scipy
+# pip install numpy
+# pip install scipy
 # OR:
 # (if you want to run numpy and scipy with openblas also remove comments below:)
 #brew install openblas
@@ -177,11 +177,11 @@ pip install scipy
 # brew install scipy # --with-openblas
 
 # test the numpy & scipy install
-python -c 'import numpy ; numpy.test();'
-python -c 'import scipy ; scipy.test();'
+# python -c 'import numpy ; numpy.test();'
+# python -c 'import scipy ; scipy.test();'
 
 # Testing tools
-pip install coverage
+# pip install coverage
 
 # some cool python libs (if you don't know them, look them up)
 # matplotlib: generate plots
@@ -241,22 +241,23 @@ brew tap caskroom/versions
 
 brew cask install iterm2
 brew cask install google-chrome
-brew cask install sublime-text
+# brew cask install sublime-text
+brew install --cask visual-studio-code
 brew cask install vlc
 
 
 #################################
 # Install web development stuff #
 #################################
-brew install node
-npm install -g grunt-cli
-npm install -g bower
+# brew install node
+# npm install -g grunt-cli
+# npm install -g bower
 
 #######
 # zsh #
 #######
-brew install zsh
-sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh	# Use zsh
+# brew install zsh
+# sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh	# Use zsh
 
 # Install oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
