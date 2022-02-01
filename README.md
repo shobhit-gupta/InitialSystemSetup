@@ -192,7 +192,7 @@ Install the following sublime packages using the package control.
 1. Set sublime text as default text editor for git
 
 	```shell
-	git config --global core.editor "subl -n -w"
+	git config --global core.editor "code --wait"
 	```
 
 2. Apply the color settings
