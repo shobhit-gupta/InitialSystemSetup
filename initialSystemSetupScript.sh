@@ -11,8 +11,6 @@ if [[ $? != 0 ]] ; then
 fi
 
 # set up some taps and update brew
-brew tap homebrew/versions
-brew tap homebrew/dupes	# These formulae duplicate software provided by OS X, though may provide more recent or bugfix versions.
 # brew tap homebrew/science # a lot of cool formulae for scientific tools
 # brew tap homebrew/python # numpy, scipy, matplotlib, ...
 brew update && brew upgrade
