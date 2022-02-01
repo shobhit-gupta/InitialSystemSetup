@@ -235,10 +235,9 @@ brew install unrar
 
 brew tap caskroom/cask
 # brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 brew cask install iterm2
-brew cask install google-chrome
 # brew cask install sublime-text
 brew install --cask visual-studio-code
 brew cask install vlc
